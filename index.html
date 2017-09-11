@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Group-Sorter</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Sniglet|Revalia" rel="stylesheet">
+</head>
+<body>
+<div class='container'>
+  <header>
+  <h1>Group Sorter</h1>
+  <p>I've created an app that will sort items into groups for you! Just input the items you want to sort and the size of the groups you want them sorted into!</p>
+  </header>
+  <div>
+    <textarea name="list-input" id="list-input" cols="40" rows="3" placeholder="Please enter the items you want split, seperated by commas"></textarea>
+    <button id='list-submit'>Submit</button>
+  </div>
+  <div>
+    <textarea name="group-input" id="group-input" cols="40" rows="1" placeholder="Please enter the desired group size"></textarea>
+    <button id='group-submit'>Submit</button>
+  </div>
+  <button id='split-em'>Split em!</button>
+  <div class='results-box'>
+  </div>
+  <div class='overflow-exp'>There were more items than can evenly be placed in the group sizes you specified. If the remainder was only one short of the group size I've added it as another group to the end. This group will appear slightly lowered. If the remainder was less than that it has been split randomly into the other groups. Any groups that have has extra items added will appear slightly raised.</div>
+</div>
+
+  <script src='app.js'></script>
+</body>
+</html>
