@@ -50,6 +50,7 @@ p {
 
 .results-box {
   text-align: left;
+  vertical-align: top;
 }
 
 .results-box ul {
@@ -61,6 +62,7 @@ p {
   list-style: none;
   font-family: 'Sniglet', cursive;
   height: 25vh;
+  vertical-align: top;
 }
 
 .group-0,
